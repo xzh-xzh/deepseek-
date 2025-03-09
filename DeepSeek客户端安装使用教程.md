@@ -68,7 +68,7 @@ sudo sh cuda_12.4.0_550.54.14_linux.run
 
 
 
-![image-20250307135028685](C:\Users\13556\AppData\Roaming\Typora\typora-user-images\image-20250307135028685.png)
+![image-20250307135028685](C:\Users\13556\OneDrive\DeepSeek客户端安装使用教程.assets\image-20250307135028685.png)
 
 ## 2、miniconda配置
 
@@ -78,7 +78,7 @@ sudo sh cuda_12.4.0_550.54.14_linux.run
 
 https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
-![image-20250307140353615](C:\Users\13556\AppData\Roaming\Typora\typora-user-images\image-20250307140353615.png)
+![image-20250307140353615](C:\Users\13556\OneDrive\DeepSeek客户端安装使用教程.assets\image-20250307140353615.png)
 
 
 
@@ -163,7 +163,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 pip3 install torch torchvision torchaudio -f https://mirrors.aliyun.com/pytorch-wheels/cu121
 ```
 
-![image-20250307135410229](C:\Users\13556\AppData\Roaming\Typora\typora-user-images\image-20250307135410229.png)
+![image-20250307135410229](C:\Users\13556\OneDrive\DeepSeek客户端安装使用教程.assets\image-20250307135410229.png)
 
 ## 4、vllm安装
 
