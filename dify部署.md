@@ -79,3 +79,37 @@ cp .env.example .env
 docker compose up -d
 ```
 
+## Dify端口修改
+
+[修改DIFY默认端口号_dify修改端口-CSDN博客](https://blog.csdn.net/weixin_42635073/article/details/146157197)
+
+1. 修改.env文件中EXPOSE_NGINX_PORT端口号位
+
+   /dify/docker文件目录下
+
+   ```bash
+   nano .env
+   ```
+
+   搜索代码位置：`^w EXPOSE_NGINX_PORT`
+
+   修改EXPOSE_NGINX_PORT=8081（或其他端口）
+
+2. down掉docker-compose
+
+   ```bash
+   docker compose down
+   ```
+
+3. 启动dify所有服务
+   ```bash
+   docker compose up -d
+   ```
+
+4. 配置天翼云安全组
+
+   ![1745805992951](./dify部署.assets/1745805992951.png)
+
+   添加相应的端口地址
+
+   
